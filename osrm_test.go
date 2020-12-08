@@ -262,10 +262,10 @@ func TestTripRequest(t *testing.T) {
 	tgeo := NewGeometryFromPointSet(geo.PointSet{
 
 		{13.3927165, 52.4956761},
-		{13.3925165, 52.4956721},
-		{13.3927765, 52.4956821},
-		{13.3927925, 52.4955861},
-		{13.3926365, 52.4956261},
+		{13.3975165, 52.4976721},
+		{13.3827765, 52.5056821},
+		{13.3997925, 52.4555861},
+		{13.4026365, 52.4256261},
 	})
 	r, err := osrm.Trip(context.Background(), TripRequest{
 		Profile:     "car",
