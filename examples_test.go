@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	osrm "github.com/gojuno/go.osrm"
+	osrm "github.com/georgiosB/go.osrm"
 	geo "github.com/paulmach/go.geo"
 )
 
