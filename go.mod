@@ -1,4 +1,4 @@
-module github.com/gojuno/go.osrm
+module github.com/machship-mm/go.osrm
 
 go 1.15
 
